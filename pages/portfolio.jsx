@@ -43,7 +43,7 @@ export default function Portfolio() {
               </PortfolioDescription>
             </PortfolioWrapper>
 
-            <PortfolioGridWrapper xs={2} md={4}>
+            <PortfolioGridWrapper className="grid-cols-2 md:grid-cols-4">
               {[1, 3, 5, 7].map((num) => (
                 <PortfolioImage
                   src={`/img/konten-${num}-compressed.webp`}
@@ -70,7 +70,7 @@ export default function Portfolio() {
               </PortfolioDescription>
             </PortfolioWrapper>
 
-            <PortfolioGridWrapper md={3}>
+            <PortfolioGridWrapper className="grid-cols-1 md:grid-cols-3">
               {[1, 2, 3].map((num) => (
                 <PortfolioImage
                   src={`/img/ui-${num}-compressed.webp`}
@@ -99,7 +99,7 @@ export default function Portfolio() {
               </PortfolioDescription>
             </PortfolioWrapper>
 
-            <PortfolioGridWrapper md={2}>
+            <PortfolioGridWrapper className="grid-cols-1 md:grid-cols-2">
               {[2, 3, 4, 5].map((num) => (
                 <PortfolioImage
                   src={`/img/landing-${num}-compressed.webp`}
@@ -130,7 +130,7 @@ export default function Portfolio() {
               </PortfolioDescription>
             </PortfolioWrapper>
 
-            <PortfolioGridWrapper md={2}>
+            <PortfolioGridWrapper className="grid-cols-1 md:grid-cols-2">
               {[2, 3].map((num) => (
                 <PortfolioImage
                   src={`/img/project-${num}-compressed.webp`}
