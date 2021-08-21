@@ -9,6 +9,9 @@ const contentVariants = {
       staggerChildren: 0.1,
     },
   },
+  exit: {
+    opacity: 0,
+  },
 };
 
 const childVariants = {
@@ -20,11 +23,13 @@ const childVariants = {
     y: 0,
     opacity: 1,
   },
+  exit: { opacity: 0 },
 };
 
 const opacityVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1 },
+  exit: { opacity: 0 },
 };
 
 export { contentVariants, childVariants, opacityVariants };
