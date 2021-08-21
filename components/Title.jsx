@@ -5,7 +5,7 @@ export default function Title() {
   return (
     <motion.h1
       variants={childVariants}
-      className="text-3xl md:text-4xl xl:text-5xl font-extrabold text-gray-800 dark:text-gray-50 leading-normal lg:space-y-3"
+      className="text-3xl md:text-4xl font-extrabold text-gray-800 dark:text-gray-50 leading-normal lg:space-y-3"
     >
       <span className="inline-block md:block">Halo! Saya Gunawan</span>
       <span className="inline-block md:block">
@@ -15,7 +15,7 @@ export default function Title() {
         </span>{" "}
         dan
       </span>
-      <span className="inline-block md:block text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-pink-800">
+      <span className="inline-block md:block text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-pink-800 dark:from-purple-500 dark:to-pink-500">
         Developer
       </span>
     </motion.h1>
