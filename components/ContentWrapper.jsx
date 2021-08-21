@@ -6,10 +6,7 @@ export default function ContentWrapper({ children }) {
   return (
     <motion.div
       variants={contentVariants}
-      initial="hidden"
-      animate="visible"
-      exit="hidden"
-      className="text-center lg:text-left space-y-8"
+      className="text-center lg:text-left space-y-6"
     >
       {children}
     </motion.div>

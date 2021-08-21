@@ -6,8 +6,6 @@ export default function PortfolioGridWrapper({ children, className }) {
   return (
     <motion.div
       variants={contentVariants}
-      initial="hidden"
-      animate="visible"
       className={`grid ${className} gap-3`}
     >
       {children}
