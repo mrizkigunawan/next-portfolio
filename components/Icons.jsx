@@ -216,7 +216,7 @@ export function IconMoon() {
       data-prefix="fas"
       data-icon="moon"
       className={classNames(
-        "svg-inline--fa fa-moon w-6 h-6 text-gray-50 inline-block cursor-pointer",
+        "svg-inline--fa fa-moon w-5 h-5 text-gray-50 inline-block cursor-pointer",
         {
           hidden: !isDark,
         }
@@ -248,7 +248,7 @@ export function IconSun() {
       data-prefix="fas"
       data-icon="sun"
       className={classNames(
-        "svg-inline--fa fa-sun w-6 h-6 text-gray-700 inline-block cursor-pointer",
+        "svg-inline--fa fa-sun w-5 h-5 text-gray-700 inline-block cursor-pointer",
         {
           hidden: isDark,
         }
