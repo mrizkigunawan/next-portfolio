@@ -5,7 +5,7 @@ export default function GradientBg2() {
   return (
     <GradientWrapper>
       <img
-        src="/img/Eclipse.png"
+        src="/img/Eclipse-2.png"
         alt="gradient"
         className="w-[700px] md:w-[1000px] h-[700px] md:h-[1000px] transform translate-x-60 md:translate-x-[500px] translate-y-1/3 opacity-50 blur -rotate-180"
       />
