@@ -248,7 +248,7 @@ export function IconSun() {
       data-prefix="fas"
       data-icon="sun"
       className={classNames(
-        "svg-inline--fa fa-sun w-5 h-5 text-gray-700 inline-block cursor-pointer",
+        "svg-inline--fa fa-sun w-5 h-5 text-yellow-400 inline-block cursor-pointer",
         {
           hidden: isDark,
         }
