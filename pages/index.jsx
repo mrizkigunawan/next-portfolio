@@ -33,7 +33,7 @@ export default function Home() {
 
 function FlexWrapper({ children }) {
   return (
-    <div className="flex flex-col-reverse lg:flex-row lg:items-center lg:justify-between">
+    <div className="flex flex-grow flex-col-reverse lg:flex-row lg:items-center lg:justify-between">
       {children}
     </div>
   );
