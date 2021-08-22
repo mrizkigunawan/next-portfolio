@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import Image from "next/image";
 import { motion } from "framer-motion";
 
 const imgVariants = {
@@ -24,11 +23,9 @@ const imgVariants = {
 export default function Image3D() {
   return (
     <ImageWrapper>
-      <Image
-        src="/img/saly-compressed.png"
-        width={400}
-        height={400}
-        className="object-center object-cover rounded"
+      <img
+        src="/img/saly-compressed-2.webp"
+        layout="fill"
         alt="3d elemen saly"
       />
     </ImageWrapper>
@@ -39,7 +36,7 @@ function ImageWrapper({ children }) {
   return (
     <motion.div
       variants={imgVariants}
-      className="mb-10 lg:mb-0 flex justify-center lg:flex-none xl:mr-14"
+      className="mb-10 lg:mb-0 flex justify-center lg:flex-none xl:mr-14 w-72 h-72 md:w-96 md:h-96 mx-auto relative"
     >
       {children}
     </motion.div>
