@@ -2,7 +2,7 @@ import { IconDribbble, IconGithub, IconLinkedIn } from "./Icons";
 
 export default function FindOutMore() {
   return (
-    <div className="relative px-6 lg:px-0 py-12 text-center bg-transparent">
+    <div className="relative z-10 px-6 lg:px-0 py-12 text-center bg-transparent">
       <h3 className="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-pink-600">
         Ingin menciptakan sesuatu yang memiliki visual yang indah?
       </h3>
